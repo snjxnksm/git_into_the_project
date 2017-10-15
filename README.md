@@ -4,10 +4,12 @@ Introducing Git into the project
 
 ## インストール
 
-asciidoctorなどをローカルにインストールする。 
+asciidoctorなどをローカルにインストールする。
  > bundle install --path vender/bundler
 
 ## html出力
+スライド形式ではないhtmlはこちら。
+
  > bundle exec asciidoctor GitIntoProject.adoc
 
 ## pdf出力
@@ -25,5 +27,5 @@ pythonを入れて、cdk入れて、htmlでだす。
 3. cdkでhtmlを出力
 
  > cdk GitIntoProject.adoc
- 
+
  > mv GitIntoProject.html index.html
